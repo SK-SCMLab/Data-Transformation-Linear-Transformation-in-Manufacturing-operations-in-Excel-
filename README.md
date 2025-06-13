@@ -15,10 +15,23 @@ Generally, normally distributed data is preferred in order to use a no. of stati
 When data is not normally distributed, the cause for non-normality should be determined and appropriate remedial actions should be taken
 
 
-<pre>                                                        +------------+
-  +-------------+          +--------------+         |-->      |Linear|        --
-      |Non-normal data|  -->   |Data transformation|  --     +-------------+    |     +------------+
-      +-------------+          +---------------+             +-------------+      --->|Normal data|
-                                                        |--> |Box and Cox|    --|     +------------+
-                                                             +-------------+                         
+<pre> 
++-------------+
+|Non-normal data|
++-------------+
+      |
+      v
++-------------+
+|Data transformation|
++-------------+
+      |
+      v
++----------+      +-----------+    
+|Linear|          |Box and Cox|
++----------+      +-----------+
+             |
+             v
++---------+
+|Normal data|
++----------+
 </pre>
