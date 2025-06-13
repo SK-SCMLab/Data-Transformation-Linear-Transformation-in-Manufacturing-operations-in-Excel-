@@ -14,7 +14,6 @@ Generally, normally distributed data is preferred in order to use a no. of stati
 - ANOVA
 When data is not normally distributed, the cause for non-normality should be determined and appropriate remedial actions should be taken
 
-
 <pre> 
 +-------------+
 |Non-normal data|
