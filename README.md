@@ -34,3 +34,5 @@ When data is not normally distributed, the cause for non-normality should be det
 |Normal data|
 +----------+
 </pre>
+
+### 😄 Linear Transformation
